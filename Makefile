@@ -40,6 +40,6 @@ docker: sudo apt-update
 	sudo apt-get update
 	sudo apt-get install docker-ce
 
-build: basic-pkg
+build: basic-pkg fpt samba docker
 	@echo Build done
 
